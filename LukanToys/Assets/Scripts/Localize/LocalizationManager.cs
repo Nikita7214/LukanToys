@@ -1,46 +1,47 @@
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
-using System.IO;
-using TMPro;
-using UnityEngine.Serialization;
 
-public class LocalizationManager : MonoBehaviour
+namespace Localize
 {
-    [SerializeField] private Text _textToLocalize;
-    private string[] _lines;
-    private const string TEXT_FILE_EN = "LocalizedText_EN";
-    private const string TEXT_FILE_RU = "LocalizedText_RU";
-
-    private void Start()
+    public class LocalizationManager : MonoBehaviour
     {
-        int language = PlayerPrefs.GetInt("Language", (int)LanguageType.English);
-        
-        string fileName = language == (int)LanguageType.Russian ? TEXT_FILE_RU : TEXT_FILE_EN;
-        string filePath = Application.streamingAssetsPath + "/" + fileName + ".txt";
-        
-        using (StreamReader reader = new StreamReader(filePath))
-        {
-            string json = reader.ReadToEnd();
-            _lines = json.Split('\n');
-        }
-        
-        Debug.Log(_lines[0]);
-        _textToLocalize.text = GetLocalizedText(_textToLocalize.name);
-    }
+        [SerializeField] private Text _textToLocalize;
+        private string[] _lines;
+        private const string TEXT_FILE_EN = "LocalizedText_EN";
+        private const string TEXT_FILE_RU = "LocalizedText_RU";
 
-    private string GetLocalizedText(string key)
-    {
-        foreach (string line in _lines)
+        private void Start()
         {
-            string[] entry = line.Split('=');
-
-            if (entry[0].Equals(key))
+            int language = PlayerPrefs.GetInt("Language", (int)LanguageType.English);
+        
+            string fileName = language == (int)LanguageType.Russian ? TEXT_FILE_RU : TEXT_FILE_EN;
+            string filePath = Application.streamingAssetsPath + "/" + fileName + ".txt";
+        
+            using (StreamReader reader = new StreamReader(filePath))
             {
-                return entry[1].Replace("\\n", "\n");
+                string json = reader.ReadToEnd();
+                _lines = json.Split('\n');
             }
-            Debug.Log(entry[0]);
+        
+            Debug.Log(_lines[0]);
+            _textToLocalize.text = GetLocalizedText(_textToLocalize.name);
         }
 
-        return "";
+        private string GetLocalizedText(string key)
+        {
+            foreach (string line in _lines)
+            {
+                string[] entry = line.Split('=');
+
+                if (entry[0].Equals(key))
+                {
+                    return entry[1].Replace("\\n", "\n");
+                }
+                Debug.Log(entry[0]);
+            }
+
+            return "";
+        }
     }
 }
