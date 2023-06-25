@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638233035460000000
-    m_Hash: 1509010707
+      ticks: 638231359970000000
+    m_Hash: 3116246
   m_LockFileStatus:
     m_FilePath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638233035510000000
-    m_Hash: 12378269
+      ticks: 638231359970000000
+    m_Hash: 3954739313
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,76 @@ m_LocalPackages:
 m_ProjectPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Packages
 m_EditorVersion: 2022.2.0f1 (35dcd44975df)
 m_ResolvedPackages:
+- packageId: com.unity.ai.navigation@1.1.3
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.3
+  source: 1
+  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.ai.navigation@1.1.3
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 1.1.4
+    - 2.0.0-pre.3
+    compatible:
+    - 1.1.1
+    - 1.1.3
+    - 1.1.4
+    recommended: 1.1.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638173260900000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 21cc07be635247d730f8d1ef7c1987e222159a45
+    path: 
+  unityLifecycle:
+    version: 1.1.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.collab-proxy@1.17.7
   testable: 0
   isDirectDependency: 1
@@ -223,7 +293,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.xr.arfoundation
-    version: 5.0.2
+    version: 5.0.6
   - name: com.unity.inputsystem
     version: 1.4.4
   - name: com.unity.modules.uielements
@@ -265,7 +335,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.xr.arcore
-    version: 5.0.2
+    version: 5.0.6
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.xr.magicleap
@@ -950,6 +1020,238 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.7.8
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.arcore@5.0.6
+  testable: 0
+  isDirectDependency: 1
+  version: 5.0.6
+  source: 1
+  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.xr.arcore@5.0.6
+  assetPath: Packages/com.unity.xr.arcore
+  name: com.unity.xr.arcore
+  displayName: Google ARCore XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: 'Provides native Google ARCore integration for use with Unity''s multi-platform
+    XR API.
+
+    Supports the following features:
+
+    -Efficient Background Rendering
+
+    -Horizontal
+    Planes
+
+    -Depth Data
+
+    -Anchors
+
+    -Hit Testing
+
+    -Occlusion'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.24
+    - 2.0.2
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.4
+    - 2.1.8
+    - 2.1.11
+    - 2.1.12
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.1.0-preview.1
+    - 3.1.0-preview.2
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.7
+    - 3.1.8
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.3
+    - 4.0.4
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    compatible:
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    recommended: 5.0.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.arfoundation
+    version: 5.0.6
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.xr.arfoundation
+    version: 5.0.6
+  - name: com.unity.inputsystem
+    version: 1.4.4
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  keywords:
+  - arcore
+  - ar
+  - augmented
+  - xr
+  - reality
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638203426220000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: e0c23bb6c351af6a055d43302e6f3bd55cb3a4be
+    path: 
+  unityLifecycle:
+    version: 5.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3172,6 +3474,337 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.xr.arfoundation@5.0.6
+  testable: 0
+  isDirectDependency: 0
+  version: 5.0.6
+  source: 1
+  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.xr.arfoundation@5.0.6
+  assetPath: Packages/com.unity.xr.arfoundation
+  name: com.unity.xr.arfoundation
+  displayName: AR Foundation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "A collection of Subsystems as well as MonoBehaviours and C# utilities
+    for working with the Subsystems. \n\nIncludes: \n\u25AA Definitions of Subsystems
+    \n\u25AA GameObject menu items for creating an AR setup \n\u25AA MonoBehaviours
+    that control AR session lifecycle and create GameObjects from detected, real-world
+    trackable features \n\u25AA Scale handling \n\u25AA Face tracking\n\nSamples
+    available at https://github.com/Unity-Technologies/arfoundation-samples"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.12
+    - 1.0.0-preview.13
+    - 1.0.0-preview.14
+    - 1.0.0-preview.17
+    - 1.0.0-preview.18
+    - 1.0.0-preview.19
+    - 1.0.0-preview.20
+    - 1.0.0-preview.22
+    - 1.1.0-preview.6
+    - 1.5.0-preview.2
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 2.0.2
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.8
+    - 2.1.10
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.6
+    - 3.0.1
+    - 3.1.0-preview.1
+    - 3.1.0-preview.3
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.5
+    - 3.1.6
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.2
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.5
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    compatible:
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    recommended: 5.0.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.5
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.inputsystem
+    version: 1.4.4
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.1.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.2.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - foundation
+  - core
+  - subsystem
+  - xreditorsubsystem
+  - arsimulation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638203426170000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: e0c23bb6c351af6a055d43302e6f3bd55cb3a4be
+    path: 
+  unityLifecycle:
+    version: 5.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.xr.core-utils@2.1.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.1.0
+  source: 1
+  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.xr.core-utils@2.1.0
+  assetPath: Packages/com.unity.xr.core-utils
+  name: com.unity.xr.core-utils
+  displayName: XR Core Utilities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "Common utility classes for XR projects\nRefer to API documentation
+    for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
+    \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
+    Check if point inside of polygon\n  \u25AA Compute 2D convex hull\n\u25AA Collection
+    pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n  \u25AA Quaternion
+    extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
+    Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
+    XR Origin Implementation"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    - 2.2.0
+    - 2.2.1
+    compatible:
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    - 2.2.0
+    - 2.2.1
+    recommended: 2.1.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637985838710000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
+    revision: 0516bb14a9f34198ccd35a41589a53e2d1f87d68
+    path: 
+  unityLifecycle:
+    version: 2.1.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -3930,243 +4563,6 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.arfoundation@5.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 5.0.2
-  source: 1
-  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.xr.arfoundation@5.0.2
-  assetPath: Packages/com.unity.xr.arfoundation
-  name: com.unity.xr.arfoundation
-  displayName: AR Foundation
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: "A collection of Subsystems as well as MonoBehaviours and C# utilities
-    for working with the Subsystems. \n\nIncludes: \n\u25AA Definitions of Subsystems
-    \n\u25AA GameObject menu items for creating an AR setup \n\u25AA MonoBehaviours
-    that control AR session lifecycle and create GameObjects from detected, real-world
-    trackable features \n\u25AA Scale handling \n\u25AA Face tracking\n\nSamples
-    available at https://github.com/Unity-Technologies/arfoundation-samples"
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.12
-    - 1.0.0-preview.13
-    - 1.0.0-preview.14
-    - 1.0.0-preview.17
-    - 1.0.0-preview.18
-    - 1.0.0-preview.19
-    - 1.0.0-preview.20
-    - 1.0.0-preview.22
-    - 1.1.0-preview.6
-    - 1.5.0-preview.2
-    - 1.5.0-preview.5
-    - 1.5.0-preview.6
-    - 1.5.0-preview.7
-    - 2.0.2
-    - 2.1.0-preview.2
-    - 2.1.0-preview.3
-    - 2.1.1
-    - 2.1.3
-    - 2.1.4
-    - 2.1.8
-    - 2.1.10
-    - 2.1.14
-    - 2.1.16
-    - 2.1.18
-    - 2.1.19
-    - 2.2.0-preview.2
-    - 2.2.0-preview.3
-    - 2.2.0-preview.6
-    - 3.0.0-preview.1
-    - 3.0.0-preview.2
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.0-preview.6
-    - 3.0.1
-    - 3.1.0-preview.1
-    - 3.1.0-preview.3
-    - 3.1.0-preview.4
-    - 3.1.0-preview.6
-    - 3.1.0-preview.7
-    - 3.1.0-preview.8
-    - 3.1.3
-    - 3.1.5
-    - 3.1.6
-    - 3.1.10
-    - 4.0.0-preview.1
-    - 4.0.0-preview.3
-    - 4.0.2
-    - 4.0.8
-    - 4.0.9
-    - 4.0.10
-    - 4.0.12
-    - 4.1.0-preview.1
-    - 4.1.0-preview.2
-    - 4.1.0-preview.3
-    - 4.1.0-preview.5
-    - 4.1.0-preview.6
-    - 4.1.0-preview.7
-    - 4.1.0-preview.9
-    - 4.1.0-preview.10
-    - 4.1.0-preview.11
-    - 4.1.0-preview.12
-    - 4.1.0-preview.13
-    - 4.1.1
-    - 4.1.3
-    - 4.1.5
-    - 4.1.7
-    - 4.1.9
-    - 4.1.10
-    - 4.1.12
-    - 4.1.13
-    - 4.2.0-pre.2
-    - 4.2.0-pre.3
-    - 4.2.0-pre.4
-    - 4.2.0-pre.5
-    - 4.2.0-pre.7
-    - 4.2.0-pre.8
-    - 4.2.0-pre.9
-    - 4.2.0-pre.10
-    - 4.2.0-pre.12
-    - 4.2.0
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.6
-    - 4.2.7
-    - 4.2.8
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.1.0-pre.1
-    - 5.1.0-pre.2
-    - 5.1.0-pre.3
-    - 5.1.0-pre.4
-    - 5.1.0-pre.6
-    - 5.1.0-pre.8
-    compatible:
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.1.0-pre.1
-    - 5.1.0-pre.2
-    - 5.1.0-pre.3
-    - 5.1.0-pre.4
-    - 5.1.0-pre.6
-    - 5.1.0-pre.8
-    recommended: 5.0.6
-    deprecated: []
-  dependencies:
-  - name: com.unity.inputsystem
-    version: 1.3.0
-  - name: com.unity.xr.core-utils
-    version: 2.1.0
-  - name: com.unity.xr.management
-    version: 4.0.1
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.5
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.unityanalytics
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.inputsystem
-    version: 1.4.4
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.core-utils
-    version: 2.1.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.2.0
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.10
-  - name: com.unity.subsystemregistration
-    version: 1.1.1
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  - name: com.unity.modules.unityanalytics
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  keywords:
-  - xr
-  - ar
-  - augmented
-  - reality
-  - utility
-  - utilities
-  - foundation
-  - core
-  - subsystem
-  - xreditorsubsystem
-  - arsimulation
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637986083860000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: 14592dfeeb9ecce202f640c8b661b72b3a763f72
-    path: 
-  unityLifecycle:
-    version: 5.0.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.xr.arkit@5.0.2
   testable: 0
   isDirectDependency: 0
@@ -4346,7 +4742,7 @@ m_ResolvedPackages:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.xr.arfoundation
-    version: 5.0.2
+    version: 5.0.6
   - name: com.unity.inputsystem
     version: 1.4.4
   - name: com.unity.modules.uielements
@@ -4400,238 +4796,6 @@ m_ResolvedPackages:
   hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637986083920000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: 14592dfeeb9ecce202f640c8b661b72b3a763f72
-    path: 
-  unityLifecycle:
-    version: 5.0.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.xr.arcore@5.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 5.0.2
-  source: 1
-  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.xr.arcore@5.0.2
-  assetPath: Packages/com.unity.xr.arcore
-  name: com.unity.xr.arcore
-  displayName: Google ARCore XR Plugin
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'Provides native Google ARCore integration for use with Unity''s multi-platform
-    XR API.
-
-    Supports the following features:
-
-    -Efficient Background Rendering
-
-    -Horizontal
-    Planes
-
-    -Depth Data
-
-    -Anchors
-
-    -Hit Testing
-
-    -Occlusion'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.24
-    - 2.0.2
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.4
-    - 2.1.8
-    - 2.1.11
-    - 2.1.12
-    - 2.1.14
-    - 2.1.16
-    - 2.1.18
-    - 2.1.19
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.6
-    - 3.0.0-preview.1
-    - 3.0.0-preview.2
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.1.0-preview.1
-    - 3.1.0-preview.2
-    - 3.1.0-preview.4
-    - 3.1.0-preview.6
-    - 3.1.0-preview.7
-    - 3.1.0-preview.8
-    - 3.1.3
-    - 3.1.4
-    - 3.1.5
-    - 3.1.7
-    - 3.1.8
-    - 3.1.10
-    - 4.0.0-preview.1
-    - 4.0.0-preview.3
-    - 4.0.3
-    - 4.0.4
-    - 4.0.8
-    - 4.0.9
-    - 4.0.10
-    - 4.0.12
-    - 4.1.0-preview.2
-    - 4.1.0-preview.3
-    - 4.1.0-preview.5
-    - 4.1.0-preview.6
-    - 4.1.0-preview.7
-    - 4.1.0-preview.9
-    - 4.1.0-preview.10
-    - 4.1.0-preview.11
-    - 4.1.0-preview.12
-    - 4.1.0-preview.13
-    - 4.1.1
-    - 4.1.3
-    - 4.1.5
-    - 4.1.7
-    - 4.1.9
-    - 4.1.10
-    - 4.1.12
-    - 4.1.13
-    - 4.2.0-pre.2
-    - 4.2.0-pre.3
-    - 4.2.0-pre.4
-    - 4.2.0-pre.5
-    - 4.2.0-pre.7
-    - 4.2.0-pre.8
-    - 4.2.0-pre.9
-    - 4.2.0-pre.10
-    - 4.2.0-pre.12
-    - 4.2.0
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.6
-    - 4.2.7
-    - 4.2.8
-    - 5.0.0-pre.5
-    - 5.0.0-pre.6
-    - 5.0.0-pre.7
-    - 5.0.0-pre.8
-    - 5.0.0-pre.9
-    - 5.0.0-pre.12
-    - 5.0.0-pre.13
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.1.0-pre.1
-    - 5.1.0-pre.2
-    - 5.1.0-pre.3
-    - 5.1.0-pre.4
-    - 5.1.0-pre.6
-    - 5.1.0-pre.8
-    compatible:
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.1.0-pre.1
-    - 5.1.0-pre.2
-    - 5.1.0-pre.3
-    - 5.1.0-pre.4
-    - 5.1.0-pre.6
-    - 5.1.0-pre.8
-    recommended: 5.0.6
-    deprecated: []
-  dependencies:
-  - name: com.unity.xr.arfoundation
-    version: 5.0.2
-  - name: com.unity.xr.core-utils
-    version: 2.1.0
-  - name: com.unity.xr.management
-    version: 4.0.1
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.xr.arfoundation
-    version: 5.0.2
-  - name: com.unity.inputsystem
-    version: 1.4.4
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.xr.core-utils
-    version: 2.1.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.xr.management
-    version: 4.2.0
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.10
-  - name: com.unity.subsystemregistration
-    version: 1.1.1
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  - name: com.unity.modules.unityanalytics
-    version: 1.0.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords:
-  - arcore
-  - ar
-  - augmented
-  - xr
-  - reality
-  - core
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637986083880000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4777,7 +4941,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.arsubsystems
     version: 5.0.2
   - name: com.unity.xr.arfoundation
-    version: 5.0.2
+    version: 5.0.6
   - name: com.unity.inputsystem
     version: 1.4.4
   - name: com.unity.modules.uielements
@@ -5047,75 +5211,6 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ext.nunit@1.0.6
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.6
-  source: 1
-  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.ext.nunit@1.0.6
-  assetPath: Packages/com.unity.ext.nunit
-  name: com.unity.ext.nunit
-  displayName: Custom NUnit
-  author:
-    name: 
-    email: 
-    url: 
-  category: Libraries
-  type: asset
-  description: Custom version of the nunit package build to work with Unity. Used
-    by the Unity Test Framework.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.9-preview
-    - 1.0.0
-    - 1.0.5
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
-    compatible:
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
-    recommended: 1.0.6
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - nunit
-  - unittest
-  - test
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637429759280000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-    revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
-    path: 
-  unityLifecycle:
-    version: 1.0.6
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.inputsystem@1.4.4
   testable: 0
   isDirectDependency: 0
@@ -5224,6 +5319,147 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.4.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.mathematics@1.2.6
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.6
+  source: 1
+  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.mathematics@1.2.6
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    compatible:
+    - 1.2.6
+    recommended: 1.2.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637841876140000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: f110c8c230d253654afed153569030a587cc7557
+    path: 
+  unityLifecycle:
+    version: 1.2.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ext.nunit@1.0.6
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.6
+  source: 1
+  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.ext.nunit@1.0.6
+  assetPath: Packages/com.unity.ext.nunit
+  name: com.unity.ext.nunit
+  displayName: Custom NUnit
+  author:
+    name: 
+    email: 
+    url: 
+  category: Libraries
+  type: asset
+  description: Custom version of the nunit package build to work with Unity. Used
+    by the Unity Test Framework.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
+    - 1.0.5
+    - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    compatible:
+    - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    recommended: 1.0.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - nunit
+  - unittest
+  - test
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637429759280000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
+    revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+    path: 
+  unityLifecycle:
+    version: 1.0.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5341,7 +5577,7 @@ m_ResolvedPackages:
     version: 5.0.2
   resolvedDependencies:
   - name: com.unity.xr.arfoundation
-    version: 5.0.2
+    version: 5.0.6
   - name: com.unity.inputsystem
     version: 1.4.4
   - name: com.unity.modules.uielements
@@ -5472,172 +5708,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.xr.core-utils@2.1.0
-  testable: 0
-  isDirectDependency: 0
-  version: 2.1.0
-  source: 1
-  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.xr.core-utils@2.1.0
-  assetPath: Packages/com.unity.xr.core-utils
-  name: com.unity.xr.core-utils
-  displayName: XR Core Utilities
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: "Common utility classes for XR projects\nRefer to API documentation
-    for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
-    \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
-    Check if point inside of polygon\n  \u25AA Compute 2D convex hull\n\u25AA Collection
-    pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n  \u25AA Quaternion
-    extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
-    Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
-    XR Origin Implementation"
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 2.0.0-pre.3
-    - 2.0.0-pre.5
-    - 2.0.0-pre.6
-    - 2.0.0
-    - 2.0.1
-    - 2.1.0-pre.1
-    - 2.1.0
-    - 2.1.1
-    - 2.2.0-pre.1
-    - 2.2.0-pre.2
-    - 2.2.0
-    - 2.2.1
-    compatible:
-    - 2.1.0
-    - 2.1.1
-    - 2.2.0-pre.1
-    - 2.2.0-pre.2
-    - 2.2.0
-    - 2.2.1
-    recommended: 2.1.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  keywords:
-  - xr
-  - ar
-  - augmented
-  - reality
-  - utility
-  - utilities
-  - core
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637985838710000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
-    revision: 0516bb14a9f34198ccd35a41589a53e2d1f87d68
-    path: 
-  unityLifecycle:
-    version: 2.1.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.mathematics@1.2.6
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.6
-  source: 1
-  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys1/LukanToys/Library/PackageCache/com.unity.mathematics@1.2.6
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    compatible:
-    - 1.2.6
-    recommended: 1.2.6
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637841876140000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: f110c8c230d253654afed153569030a587cc7557
-    path: 
-  unityLifecycle:
-    version: 1.2.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
