@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/Menu.unity
+    guid: a35c13af52c7e4610ae53eb0c8afa51a
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/BlankAR 1.unity
+    guid: 95ca0517cd49c47f48797e3226506819
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/SettingsMenu.unity
+    guid: d0a7c59c55e87445f8d9a3ca7ac0c995
+  - enabled: 1
+    path: Assets/ExampleAssets/Scenes/Dictionary.unity
+    guid: c36e0581d713cb44aaa63dfc0fbd66a9
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
@@ -14,7 +26,7 @@ EditorBuildSettings:
       type: 2}
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: c2f7b8d7c0bff4d10874cbcf3f24af78,
       type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: bb2f8fd4021ec4d8d841dd5a9ccfbe62,
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: a4a690b846b784b5aacd670f692c5af4,
       type: 2}
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: b27ec7d82a91a48e69fd689ad6808e5e,
       type: 2}
