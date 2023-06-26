@@ -1,7 +1,0 @@
-[
-  {
-    "LocalizedText_EN": "Next"
-  },
-]
-
-

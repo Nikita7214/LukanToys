@@ -424,8 +424,6 @@
 "Assets/Scripts/Character/PlayerController.cs"
 "Assets/Scripts/Character/StateBase.cs"
 "Assets/Scripts/Dictionary/Dictionary.cs"
-"Assets/Scripts/Localize/LanguageDropdown.cs"
-"Assets/Scripts/Localize/LocalizationManager.cs"
 "Assets/Scripts/Localize/SelectLanguage.cs"
 "Assets/Scripts/UI/ButtonSettings.cs"
 "Assets/Scripts/UI/ButtonState.cs"
