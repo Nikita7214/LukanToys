@@ -1845,3 +1845,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 965.565709 seconds.
+  path: Assets/ExampleAssets/Prefabs/Red_Deer_anim_RM Variant.prefab
+  artifactKey: Guid(8a378019294214aefa12908cd1182ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExampleAssets/Prefabs/Red_Deer_anim_RM Variant.prefab using Guid(8a378019294214aefa12908cd1182ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0412b518c774c420935647bc72c495f') in 0.817296 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 216
