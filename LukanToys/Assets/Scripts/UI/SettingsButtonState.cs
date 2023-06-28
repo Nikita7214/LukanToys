@@ -22,8 +22,7 @@ namespace UI
         {
             if (!_vkButton) return;
         
-            ProcessStartInfo info = new ProcessStartInfo("https://m.vk.com/lukan_sever_toys?from=groups");
-            Process.Start(info);
+           Application.OpenURL("https://m.vk.com/lukan_sever_toys?from=groups");
         }
 
         public void OpenDictionary()

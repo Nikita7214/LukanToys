@@ -1,0 +1,23 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ButtonSettings">
+			<method name="OnSettingsButton"/>
+		</type>
+		<type fullname="ButtonState">
+			<method name="OnNextButton"/>
+		</type>
+		<type fullname="Dictionary">
+			<method name="PlayAudio"/>
+			<method name="ReadInput"/>
+		</type>
+		<type fullname="UI.SelectLanguage">
+			<method name="OnValueChanged"/>
+			<method name="OnValueChanged"/>
+		</type>
+		<type fullname="UI.SettingsButtonState">
+			<method name="OpenDictionary"/>
+			<method name="OpenGmail"/>
+			<method name="OpenVk"/>
+		</type>
+	</assembly>
+</linker>
