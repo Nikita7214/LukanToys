@@ -415,6 +415,7 @@
 "Assets/ExampleAssets/Scripts/AnchorCreator.cs"
 "Assets/ExampleAssets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
 "Assets/MeshCombiner/Scripts/MeshCombiner.cs"
+"Assets/Scripts/AR/ImageRecognitionExample.cs"
 "Assets/Scripts/Character/CharacterBehavior.cs"
 "Assets/Scripts/Character/CharacterEventHandler.cs"
 "Assets/Scripts/Character/CharacterIdleState.cs"

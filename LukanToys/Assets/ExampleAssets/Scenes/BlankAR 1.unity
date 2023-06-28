@@ -468,6 +468,7 @@ GameObject:
   - component: {fileID: 324699705}
   - component: {fileID: 324699704}
   - component: {fileID: 324699706}
+  - component: {fileID: 324699707}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -524,6 +525,18 @@ MonoBehaviour:
     type: 2}
   m_MaxNumberOfMovingImages: 1
   m_TrackedImagePrefab: {fileID: 1692319510}
+--- !u!114 &324699707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324699703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080baf4aa856143a3b8baa395062e498, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &360190085
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,6 +781,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27e35289a67264435b9eef56c115f30c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.72700274
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 27e35289a67264435b9eef56c115f30c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.78421813
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 27e35289a67264435b9eef56c115f30c,
         type: 3}
