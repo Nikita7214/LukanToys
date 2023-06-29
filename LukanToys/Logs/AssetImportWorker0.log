@@ -4311,3 +4311,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4373.161711 seconds.
+  path: Assets/Scripts/AR/ImageRecognitionExample.cs
+  artifactKey: Guid(080baf4aa856143a3b8baa395062e498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/Scripts/AR/ImageRecognitionExample.cs using Guid(080baf4aa856143a3b8baa395062e498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd6ead548ef32e19176fe272bce2785') in 0.186265 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.957488 seconds.
+  path: Assets/gitignore.txt
+  artifactKey: Guid(229d39bf206134dfa86173633d302395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/gitignore.txt using Guid(229d39bf206134dfa86173633d302395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d98f80586c382d366eb0d22ba1dc68') in 2.098536 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.183968 seconds.
+  path: Assets/ExampleAssets/Prefabs/Red_Deer_anim_IP Variant.prefab
+  artifactKey: Guid(c876b62e7cb694911b8e2ccfea744654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExampleAssets/Prefabs/Red_Deer_anim_IP Variant.prefab using Guid(c876b62e7cb694911b8e2ccfea744654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd3dd90cb36ba5624b25b32d771e279') in 0.676789 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 288
+========================================================================
+Received Import Request.
+  Time since last request: 11.412751 seconds.
+  path: Assets/TargetImage/AR Marker.asset
+  artifactKey: Guid(7b53097c589054f838051f2118d03a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TargetImage/AR Marker.asset using Guid(7b53097c589054f838051f2118d03a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419b62951277728a5933e8ef6b13faf0') in 0.104815 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.475654 seconds.
+  path: Assets/TargetImage/AR Marker.asset
+  artifactKey: Guid(7b53097c589054f838051f2118d03a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TargetImage/AR Marker.asset using Guid(7b53097c589054f838051f2118d03a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3d9c8b7170ce2c986277be24f7a061') in 0.048622 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of asset objects unloaded after import = 2
