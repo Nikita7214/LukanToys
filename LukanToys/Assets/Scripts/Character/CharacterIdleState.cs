@@ -17,13 +17,12 @@ namespace Script
 
         public override void Enter()
         {
-            Debug.Log("Enter Idle");
             _characterEventHandler.OnInteracted += OnInteract;
         }
 
         public override void Exit()
         {
-            Debug.Log("Exit Idle");
+            _characterEventHandler.OnInteracted -= OnInteract;
         }
 
         public override void Update()

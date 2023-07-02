@@ -56,3 +56,11 @@ The following packages were updated:
   com.unity.timeline from version 1.7.2 to 1.8.2
   com.unity.visualscripting from version 1.7.8 to 1.8.0
   com.unity.xr.management from version 4.2.0 to 4.3.3
+
+=== Sun Jul  2 17:20:20 2023
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.feature.development from version 1.0.1 to 1.0.2

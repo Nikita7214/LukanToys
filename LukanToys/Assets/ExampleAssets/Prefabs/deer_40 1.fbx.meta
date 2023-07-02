@@ -1,8 +1,95 @@
 fileFormatVersion: 2
 guid: ff5140ecb7126461090497c332742d32
 ModelImporter:
-  serializedVersion: 22200
-  internalIDToNameTable: []
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 3472780494528316559
+    second: Arm_Deer|Arm_Deer|Arm_Deer|A_pose
+  - first:
+      74: 5503828752624454922
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Drink_loop
+  - first:
+      74: -4452457591361886553
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Eat_loop
+  - first:
+      74: -7428617160921307184
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Eat_walk_RM
+  - first:
+      74: 1734995931715264462
+    second: Arm_Deer|Arm_Deer|Arm_Deer|EatDig_loop
+  - first:
+      74: 4779064413317465024
+    second: Arm_Deer|Arm_Deer|Arm_Deer|EatDrink_end
+  - first:
+      74: -553914293525982598
+    second: Arm_Deer|Arm_Deer|Arm_Deer|EatDrink_start
+  - first:
+      74: -5378468256554134038
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Idle_1
+  - first:
+      74: -5052269354594348548
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Idle_2
+  - first:
+      74: -7264284503667416380
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Idle_3
+  - first:
+      74: 7156055341632814468
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Idle_4
+  - first:
+      74: -5037788358445401886
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Idle_5
+  - first:
+      74: -2019106906311485264
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Idle_6
+  - first:
+      74: -1256092871918953152
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Lie_end
+  - first:
+      74: -2340816393077062739
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Lie_loop_1
+  - first:
+      74: 5568975839327470394
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Lie_loop_2
+  - first:
+      74: -6419837854407394704
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Lie_sleep_end
+  - first:
+      74: -1767899521097227472
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Lie_sleep_loop
+  - first:
+      74: -7857799958341741817
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Lie_sleep_start
+  - first:
+      74: -758594079635443767
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Lie_start
+  - first:
+      74: 6423021764727480330
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Swim_Turn_L_RM
+  - first:
+      74: 8525445123252070331
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Swim_Turn_R_RM
+  - first:
+      74: -1234935824419279606
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Turn180_L_RM
+  - first:
+      74: -770860225828212840
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Turn180_R_RM
+  - first:
+      74: -4862907034464896604
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Turn_L_RM
+  - first:
+      74: -8632634952097431689
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Turn_R_RM
+  - first:
+      74: 1311325570256751785
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Walk_F_RM
+  - first:
+      74: 7122198812883810651
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Walk_L_RM
+  - first:
+      74: 3383140894676242187
+    second: Arm_Deer|Arm_Deer|Arm_Deer|Walk_R_RM
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -67,7 +154,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -100,8 +186,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
-  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
