@@ -15,14 +15,14 @@ namespace UI
         {
             if (!_supportButton) return;
 
-            Application.OpenURL("mailto:zk.german@yandex.ru");
+            Application.OpenURL("mailto:nikitaboklag0@gmail.com");
         }
 
-        public void OpenVk()
+        public void OpenTelegram()
         {
             if (!_vkButton) return;
         
-           Application.OpenURL("https://m.vk.com/lukan_sever_toys?from=groups");
+           Application.OpenURL("https://t.me/nnnnn513");
         }
 
         public void OpenDictionary()
