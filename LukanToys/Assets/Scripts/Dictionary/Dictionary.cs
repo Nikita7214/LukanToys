@@ -13,37 +13,13 @@ public class Dictionary : MonoBehaviour
     private InputField inputField;
     private Dictionary<string, string> descriptions;
     [SerializeField] private TextMeshProUGUI descriptionText;
-    [SerializeField] private Dictionary<string, AudioSource> audioSources;
     private AudioSource targetSource;
 
     private void Start()
     {
-        audioSources = new Dictionary<string, AudioSource>()
-        {
-            ["D"] = new AudioSource(),
-            ["A"] = new AudioSource()
-        };
         descriptions = new Dictionary<string, string>();
-        descriptions.Add("Чум","Чум это домик");
-        descriptions.Add("Dani","Hit billy and eat banana controller");
-        descriptions.Add("ChatGpt","Супер ИИ");
-    }
-
-    public void PlayAudio()
-    {
-        foreach (var key in audioSources.Keys)
-        {
-            if (targetKey == key)
-            {
-                if (targetSource != null)
-                {
-                    targetSource.Stop();
-                }
-                targetSource = audioSources[key];
-                targetSource.Play();
-                return;
-            }
-        }
+        descriptions.Add("Иван", "Иван это мальчик который любит ходить в лес, наслаждаться природой");
+        descriptions.Add("Таня", "Подруга Ивана, с которой он провел все свои годы");
     }
 
     public void ReadInput(string query)
