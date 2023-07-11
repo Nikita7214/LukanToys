@@ -471,7 +471,7 @@ PrefabInstance:
     - target: {fileID: 5059501335512861461, guid: 01bfb6f7c90fb4da8b13b7090b7cbfb7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -25.24759
+      value: -25.247498
       objectReference: {fileID: 0}
     - target: {fileID: 5059501335512861461, guid: 01bfb6f7c90fb4da8b13b7090b7cbfb7,
         type: 3}
@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ab808aca9474e089790a5422ef243f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dropdown: {fileID: 883560951}
+  dropdown: {fileID: 883560951}
   _russianLangauge: {fileID: 425911300}
   _englishLangauge: {fileID: 117728171}
 --- !u!114 &798280422
@@ -1050,7 +1050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ab808aca9474e089790a5422ef243f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dropdown: {fileID: 883560951}
+  dropdown: {fileID: 883560951}
   _russianLangauge: {fileID: 1584369075}
   _englishLangauge: {fileID: 1783250155}
 --- !u!1 &820898967
