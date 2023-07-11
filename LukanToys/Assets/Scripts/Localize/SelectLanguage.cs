@@ -6,13 +6,13 @@ namespace UI
 {
     public class SelectLanguage : MonoBehaviour
     {
-        [SerializeField] private Dropdown _dropdown;
+        public Dropdown dropdown;
         [SerializeField] private Text _russianLangauge;
         [SerializeField] private Text _englishLangauge;
 
         private void Start()
         {
-            _dropdown.value = PlayerPrefs.GetInt("DropDownValue", 0);
+            dropdown.value = PlayerPrefs.GetInt("DropDownValue", 0);
         }
         
         private void Update()
@@ -22,7 +22,7 @@ namespace UI
 
         private void SelectDropdown()
         {
-            switch (_dropdown.value)
+            switch (dropdown.value)
             {
                 case 0:
                     _russianLangauge.enabled = true;
