@@ -1,8 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.XR.ARFoundation;
 
 public class ButtonSettings : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class ButtonSettings : MonoBehaviour
    public void OnSettingsButton()
    {
       if (!_settingsButton) return;
-
+      
       SceneManager.LoadSceneAsync(2);
    }
 }

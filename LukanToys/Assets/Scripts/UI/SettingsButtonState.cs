@@ -1,7 +1,10 @@
+using System;
 using System.Diagnostics;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.XR.Management;
 
 namespace UI
 {
@@ -10,6 +13,8 @@ namespace UI
         [SerializeField] private Button _supportButton;
         [SerializeField] private Button _vkButton;
         [SerializeField] private Button _dictionaryButton;
+        [SerializeField] private Button _backButton;
+      
 
         public void OpenGmail()
         {
@@ -21,8 +26,8 @@ namespace UI
         public void OpenTelegram()
         {
             if (!_vkButton) return;
-        
-           Application.OpenURL("https://t.me/nnnnn513");
+
+            Application.OpenURL("https://t.me/nnnnn513");
         }
 
         public void OpenDictionary()
@@ -30,6 +35,13 @@ namespace UI
             if (!_dictionaryButton) return;
 
             SceneManager.LoadSceneAsync(3);
+        }
+
+        public void BackScene()
+        {
+            if (!_backButton) return;
+
+            SceneManager.LoadSceneAsync(1);
         }
     }
 }

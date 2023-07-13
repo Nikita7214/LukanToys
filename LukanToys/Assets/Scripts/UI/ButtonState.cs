@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,7 +10,7 @@ public class ButtonState : MonoBehaviour
   public void OnNextButton()
   {
     if (!_nextButton) return;
-
+    
     SceneManager.LoadSceneAsync(1);
   }
 }

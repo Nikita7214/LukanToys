@@ -1023,6 +1023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _nextButton: {fileID: 1573605704}
+  _camera: {fileID: 571353612}
 --- !u!114 &798280421
 MonoBehaviour:
   m_ObjectHideFlags: 0
