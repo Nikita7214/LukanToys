@@ -38,7 +38,7 @@ public class Dictionary : SelectLanguage
     public void ReadInput(string query)
     {
         targetKey = query;
-        foreach (var key in _descriptions.Keys)
+        foreach (string key in _descriptions.Keys)
         {
             if (query == key)
             {

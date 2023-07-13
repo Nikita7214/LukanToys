@@ -13,8 +13,6 @@ namespace UI
         [SerializeField] private Button _supportButton;
         [SerializeField] private Button _vkButton;
         [SerializeField] private Button _dictionaryButton;
-        [SerializeField] private Button _backButton;
-      
 
         public void OpenGmail()
         {
@@ -35,13 +33,6 @@ namespace UI
             if (!_dictionaryButton) return;
 
             SceneManager.LoadSceneAsync(3);
-        }
-
-        public void BackScene()
-        {
-            if (!_backButton) return;
-
-            SceneManager.LoadSceneAsync(1);
         }
     }
 }

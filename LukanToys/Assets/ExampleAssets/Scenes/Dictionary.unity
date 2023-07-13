@@ -463,6 +463,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1350961488228686288, guid: c8f100f18b033411e8d2c4a762c2ca76,
         type: 3}
+      propertyPath: m_ContentType
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350961488228686288, guid: c8f100f18b033411e8d2c4a762c2ca76,
+        type: 3}
+      propertyPath: m_CharacterValidation
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1350961488228686288, guid: c8f100f18b033411e8d2c4a762c2ca76,
+        type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
