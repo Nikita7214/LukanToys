@@ -471,7 +471,7 @@ PrefabInstance:
     - target: {fileID: 5059501335512861461, guid: 01bfb6f7c90fb4da8b13b7090b7cbfb7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -25.247498
+      value: -25.247467
       objectReference: {fileID: 0}
     - target: {fileID: 5059501335512861461, guid: 01bfb6f7c90fb4da8b13b7090b7cbfb7,
         type: 3}
@@ -1023,7 +1023,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _nextButton: {fileID: 1573605704}
-  _camera: {fileID: 571353612}
 --- !u!114 &798280421
 MonoBehaviour:
   m_ObjectHideFlags: 0

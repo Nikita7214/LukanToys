@@ -10933,3 +10933,157 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11007.233684 seconds.
+  path: Assets/ExampleAssets/Scenes/Dictionary.unity
+  artifactKey: Guid(c36e0581d713cb44aaa63dfc0fbd66a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scenes/Dictionary.unity using Guid(c36e0581d713cb44aaa63dfc0fbd66a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cdc3c89372ee0ccd97ddc3bdad6ca8') in 0.195317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.535866 seconds.
+  path: Assets/ExampleAssets/Scenes/BlankAR 1
+  artifactKey: Guid(d3d1a862330620941ad12850de291a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Scenes/BlankAR 1 using Guid(d3d1a862330620941ad12850de291a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9105eebcf37bcc3beb6e8b0a5cd3c84') in 0.007744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x288e8b000 may have been prematurely finalized
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.532 seconds
+Refreshing native plugins compatible for Editor in 5.62 ms, found 10 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.358 seconds
+Domain Reload Profiling: 5897ms
+	BeginReloadAssembly (1025ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (603ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (2399ms)
+		LoadAssemblies (1780ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (733ms)
+			TypeCache.Refresh (693ms)
+				TypeCache.ScanAssembly (614ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2358ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1107ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (670ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 4.44 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4789 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (1.2 MB). Loaded Objects now: 6001.
+Memory consumption went from 1.21 GB to 1.21 GB.
+Total: 25.233584 ms (FindLiveObjects: 0.737250 ms CreateObjectMapping: 0.133417 ms MarkObjects: 21.388083 ms  DeleteObjects: 2.973917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17cf3b000 may have been prematurely finalized
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.079 seconds
+Callback registration failed. Increase kMaxCallback.
+Fatal Error! Callback registration failed. Increase kMaxCallback.
+Obtained 31 stack frames.
+#0  0x000001a4e86868 in __pthread_kill
+#1  0x92178001a4df62c8 in abort
+#2  0x965d8001036469f0 in __cxx_global_var_init.2
+#3  0x000001021bd44c in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry&)
+#4  0x000001021bcbec in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x000001021be9f4 in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x00000102f8762c in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x00000102f8807c in DebugStringToFile(DebugStringToFileData const&)
+#8  0x00000101c37310 in CallbackArrayBase<void (*)(BuildTargetPlatform), void (*)(void const*, BuildTargetPlatform)>::Register(void (*)(BuildTargetPlatform), void (*)(void const*, BuildTargetPlatform), void const*)
+#9  0x000001026d9c5c in LoadDomainAndUserAssemblies()
+#10 0x000001026db5ec in LoadUserAssemblies()
+#11 0x00000102b8fcfc in AssetImportWorkerClient::ReloadMonoDomain(AssetResolver&)
+#12 0x00000102b9b3dc in invocation function for block in AssetImportWorkerClient::HandleMessage(PrepareMessage const&)::$_4::operator()() const
+#13 0x000001a4d36504 in _dispatch_client_callout
+#14 0xd0568001a4d45b74 in _dispatch_async_and_wait_invoke
+#15 0x38188001a4d36504 in _dispatch_client_callout
+#16 0xd3508001a4d44d1c in _dispatch_main_queue_drain
+#17 0xc61a8001a4d4496c in _dispatch_main_queue_callback_4CF
+#18 0x49160001a4fded40 in __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__
+#19 0xa1400001a4f9c7c0 in __CFRunLoopRun
+#20 0x98058001a4f9b878 in CFRunLoopRunSpecific
+#21 0xeb5b0001ae67bfa0 in RunCurrentEventLoopInMode
+#22 0xfb4c8001ae67bde4 in ReceiveNextEventCommon
+#23 0xb9358001ae67bb2c in _BlockUntilNextEventMatchingListInModeWithFilter
+#24 0x2a3b8001a8221838 in _DPSNextEvent
+#25 0x560b8001a82209c8 in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#26 0x70288001a8214df8 in -[NSApplication run]
+#27 0xf21c0001a81ec23c in NSApplicationMain
+#28 0x5e0180010366c8ec in EditorMain(int, char const**)
+#29 0x0000010366cc64 in main
+#30 0x000001a4b93e50 in start

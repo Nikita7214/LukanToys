@@ -29,8 +29,8 @@ namespace UI
                     _englishLangauge.enabled = false;
                     break;
                 case 1:
-                    _russianLangauge.enabled = false;
                     _englishLangauge.enabled = true;
+                    _russianLangauge.enabled = false;
                     break;
             }
         }
