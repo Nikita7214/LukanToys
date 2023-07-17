@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638246753160000000
-    m_Hash: 3266633809
+      ticks: 638251877110000000
+    m_Hash: 3705052191
   m_LockFileStatus:
     m_FilePath: /Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638246753160000000
-    m_Hash: 1771834217
+      ticks: 638251877110000000
+    m_Hash: 4076084213
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,72 @@ m_LocalPackages:
 m_ProjectPath: /Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Packages
 m_EditorVersion: 2023.1.2f1 (e348e726afe7)
 m_ResolvedPackages:
+- packageId: com.unity.2d.sprite@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: /Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/PackageCache/com.unity.2d.sprite@1.0.0
+  assetPath: Packages/com.unity.2d.sprite
+  name: com.unity.2d.sprite
+  displayName: 2D Sprite
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
+    like pivot, borders and Physics shape
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - 2d
+  - sprite
+  - sprite editor window
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
 - packageId: com.unity.ai.navigation@1.1.4
   testable: 0
   isDirectDependency: 1
@@ -1193,6 +1259,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1201,6 +1268,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -1426,6 +1494,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1434,6 +1503,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:
@@ -1692,6 +1762,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     compatible:
     - 5.0.6
     - 5.1.0-pre.1
@@ -1700,6 +1771,7 @@ m_ResolvedPackages:
     - 5.1.0-pre.4
     - 5.1.0-pre.6
     - 5.1.0-pre.8
+    - 5.1.0-pre.9
     recommended: 5.0.6
     deprecated: []
   dependencies:

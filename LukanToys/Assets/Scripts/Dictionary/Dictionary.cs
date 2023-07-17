@@ -17,7 +17,12 @@ namespace Dictionary
         [SerializeField] private Button _buttonUIPanel;
         private string targetKey;
         private Dictionary<string, string> _descriptions;
-        
+
+        private string _textDeerRussian = "Олень это дикое животное, которое обитает в нашем уютном лесу";
+        private string _textDeerEnglish = "Deer is a wild animal that lives in our cozy forest";
+        private string _textForestRussian = "Лес это не только красивые деревья,травка или грибы, но и хорошое времяпровождение и отдых там";
+        private string _textForestEnglish =
+            "The forest is not only beautiful trees, grass or mushrooms, but also a good pastime and relaxation there";
         private string _textUwanRussian = "Иван - мальчик, который любит ходить в лес, наслаждаться природой";
         private string _textTanyaRussian = "Подруга Ивана, с которой он провел все свои годы";
         private string _textUwanEnglish = "Ivan is a boy who loves to go to the forest, enjoy nature";
@@ -36,6 +41,8 @@ namespace Dictionary
                 _descriptions = new Dictionary<string, string>();
                 _descriptions.Add("Иван", _textUwanRussian);
                 _descriptions.Add("Таня", _textTanyaRussian);
+                _descriptions.Add("Лес", _textForestRussian);
+                _descriptions.Add("Олень", _textDeerRussian);
                 _textUIPanelRussian.enabled = true;
                 _textUIPanelEnglish.enabled = false;
             }
@@ -44,6 +51,8 @@ namespace Dictionary
                 _descriptions = new Dictionary<string, string>();
                 _descriptions.Add("Ivan", _textUwanEnglish);
                 _descriptions.Add("Tanya", _textTanyaEnglish);
+                _descriptions.Add("Forest", _textForestEnglish);
+                _descriptions.Add("Deer", _textDeerEnglish);
                 _textUIPanelEnglish.enabled = true;
                 _textUIPanelRussian.enabled = false;
             }

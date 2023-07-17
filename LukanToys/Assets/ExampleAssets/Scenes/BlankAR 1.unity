@@ -287,6 +287,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8474934957410113237, guid: 87851884415094d4697ea0263dc3069e,
+        type: 3}
+      propertyPath: m_TrackedImagePrefab
+      value: 
+      objectReference: {fileID: 5900126229751718384, guid: 16b90ac343d53447fb2f05d8887c4adf,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -298,18 +304,6 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 232667715}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &232667717 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1456490982099539951, guid: 87851884415094d4697ea0263dc3069e,
-    type: 3}
-  m_PrefabInstance: {fileID: 232667715}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &360190085
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,7 +337,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _settingsButton: {fileID: 1361399432}
-  _xrOrigin: {fileID: 232667717}
 --- !u!114 &360190087
 MonoBehaviour:
   m_ObjectHideFlags: 0
