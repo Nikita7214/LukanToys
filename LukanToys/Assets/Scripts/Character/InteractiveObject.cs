@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace Script
 {
@@ -13,7 +14,7 @@ namespace Script
         {
             playerController = FindObjectOfType<PlayerController>();
         }
-
+        
         public void OnPointerClick(PointerEventData eventData)
         {
             playerController.Interact(this);

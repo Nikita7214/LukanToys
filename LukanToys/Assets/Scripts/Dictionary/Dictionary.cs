@@ -15,7 +15,7 @@ namespace Dictionary
         [SerializeField] private Text _textUIPanelRussian;
         [SerializeField] private Text _textUIPanelEnglish;
         [SerializeField] private Button _buttonUIPanel;
-        private string targetKey;
+        private string _targetKey;
         private Dictionary<string, string> _descriptions;
 
         private string _textDeerRussian = "Олень это дикое животное, которое обитает в нашем уютном лесу";
@@ -60,7 +60,7 @@ namespace Dictionary
 
         public void ReadInput(string query)
         {
-            targetKey = query;
+            _targetKey = query;
             foreach (string key in _descriptions.Keys)
             {
                 if (query == key)
