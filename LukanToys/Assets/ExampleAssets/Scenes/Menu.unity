@@ -1035,7 +1035,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ab808aca9474e089790a5422ef243f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 883560951}
+  DropDownData:
+    dropdown: {fileID: 883560951}
   _russianLangauge: {fileID: 425911300}
   _englishLangauge: {fileID: 117728171}
 --- !u!114 &798280422
@@ -1050,7 +1051,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ab808aca9474e089790a5422ef243f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 883560951}
+  DropDownData:
+    dropdown: {fileID: 883560951}
   _russianLangauge: {fileID: 1584369075}
   _englishLangauge: {fileID: 1783250155}
 --- !u!1 &820898967

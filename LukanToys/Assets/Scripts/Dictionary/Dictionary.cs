@@ -30,13 +30,13 @@ namespace Dictionary
 
         private void Start()
         {
-            dropdown.value = PlayerPrefs.GetInt("DropDownValue", 1);
+            DropDownData.dropdown.value = PlayerPrefs.GetInt("DropDownValue", 1);
             _panel.SetActive(true);
         }
         
         public void LanguageDescription()
         {
-            if (dropdown.value == 0)
+            if (DropDownData.dropdown.value == 0)
             {
                 _descriptions = new Dictionary<string, string>();
                 _descriptions.Add("Иван", _textUwanRussian);

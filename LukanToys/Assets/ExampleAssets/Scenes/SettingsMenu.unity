@@ -1553,7 +1553,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ab808aca9474e089790a5422ef243f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 7842489418674223139}
+  DropDownData:
+    dropdown: {fileID: 7842489418674223139}
   _russianLangauge: {fileID: 534920195}
   _englishLangauge: {fileID: 447534360}
 --- !u!114 &1957310515
@@ -1568,7 +1569,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ab808aca9474e089790a5422ef243f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 7842489418674223139}
+  DropDownData:
+    dropdown: {fileID: 7842489418674223139}
   _russianLangauge: {fileID: 194901128}
   _englishLangauge: {fileID: 862475364}
 --- !u!114 &1957310516
@@ -1583,7 +1585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ab808aca9474e089790a5422ef243f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 7842489418674223139}
+  DropDownData:
+    dropdown: {fileID: 7842489418674223139}
   _russianLangauge: {fileID: 1229544385}
   _englishLangauge: {fileID: 78828988}
 --- !u!114 &1957310517
@@ -1598,7 +1601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00ab808aca9474e089790a5422ef243f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 7842489418674223139}
+  DropDownData:
+    dropdown: {fileID: 7842489418674223139}
   _russianLangauge: {fileID: 262706766}
   _englishLangauge: {fileID: 1040460926}
 --- !u!224 &1978611999 stripped

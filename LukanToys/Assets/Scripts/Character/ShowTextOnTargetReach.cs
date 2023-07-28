@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using UI;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -9,7 +10,7 @@ using UnityEngine.UI;
 namespace Character
 {
     public class ShowTextOnTargetReach : MonoBehaviour
-    { 
+    {
         public float detectionRadius = 3f; 
         [SerializeField] private GameObject[] _targets;
         [SerializeField] private string[] _targetTexts; 
@@ -18,6 +19,14 @@ namespace Character
         private void Start()
         {
             _uiText = (Text)GameObject.FindGameObjectWithTag("TextUI").GetComponent(typeof(Text));
+            DropDownData dropDownData = new DropDownData();
+
+            if (dropDownData.dropdown.value == 1)
+            {
+                _targetTexts[0] = "Tanya";
+                _targetTexts[1] = "Forest";
+                _targetTexts[2] = "Deer";
+            }
         }
 
         private void Update()

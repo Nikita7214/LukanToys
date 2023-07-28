@@ -238,7 +238,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca1464dc1738cc4a89c3ac1aca3ef81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 1408523104}
+  DropDownData:
+    dropdown: {fileID: 1408523104}
   _russianLangauge: {fileID: 888513707}
   _englishLangauge: {fileID: 1808620950}
   descriptionText: {fileID: 1204566274}
