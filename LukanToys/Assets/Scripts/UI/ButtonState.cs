@@ -3,14 +3,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ButtonState : MonoBehaviour
+namespace UI
 {
-  [SerializeField] private Button _nextButton;
-
-  public void OnNextButton()
+  public class ButtonState : MonoBehaviour
   {
-    if (!_nextButton) return;
+    [SerializeField] private Button _nextButton;
     
-    SceneManager.LoadSceneAsync(1);
+    public void OnNextButton()
+    {
+      if (!_nextButton) return;
+    
+      SceneManager.LoadSceneAsync(1);
+    }
   }
 }

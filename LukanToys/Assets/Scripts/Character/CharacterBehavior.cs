@@ -12,8 +12,6 @@ namespace Script
     {
         [SerializeField] private NavMeshAgent agent;
         [SerializeField] private CharacterEventHandler characterEventHandler;
-        [SerializeField] private Text _forestText;
-        [SerializeField] private double _targetNum = -4.055089;
         private List<StateBase> allStates;
         private StateBase currentState;
 
@@ -50,14 +48,6 @@ namespace Script
             currentState.Exit();
             currentState = s;
             currentState.Enter();
-        }
-
-        public void OnTriggerEnter(Collider other)
-        {
-            if (agent.transform.position.x >= _targetNum)
-            {
-                _forestText.gameObject.SetActive(true);
-            }
         }
     }
 }
