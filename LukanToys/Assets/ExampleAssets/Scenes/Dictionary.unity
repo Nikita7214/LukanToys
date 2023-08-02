@@ -238,15 +238,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aca1464dc1738cc4a89c3ac1aca3ef81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DropDownData:
+  descriptionText: {fileID: 1204566274}
+  DropDown:
     dropdown: {fileID: 7890492480885304787, guid: 790795cdea03349c0b6c7b0f3d59e3d2,
       type: 3}
-  _russianLangauge: {fileID: 888513707}
-  _englishLangauge: {fileID: 1808620950}
-  descriptionText: {fileID: 1204566274}
   _panel: {fileID: 1935853289}
   _textUIPanelRussian: {fileID: 522993957}
   _textUIPanelEnglish: {fileID: 1523717735}
+  _textBackPanelRussian: {fileID: 888513707}
+  _textBackPanelEnglish: {fileID: 1808620950}
   _buttonUIPanel: {fileID: 449963360}
 --- !u!4 &418881550
 Transform:
@@ -1001,6 +1001,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 1400
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473549680218847880, guid: c8f100f18b033411e8d2c4a762c2ca76,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 216.2693
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473549680218847880, guid: c8f100f18b033411e8d2c4a762c2ca76,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1039.1345
       objectReference: {fileID: 0}
     - target: {fileID: 6791170725272465707, guid: c8f100f18b033411e8d2c4a762c2ca76,
         type: 3}

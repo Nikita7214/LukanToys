@@ -9,12 +9,15 @@ using UnityEngine.UI;
 
 namespace Dictionary
 {
-    public class Dictionary : SelectLanguage
+    public class Dictionary : MonoBehaviour
     {
         [SerializeField] private TextMeshProUGUI descriptionText;
+        [SerializeField] private DropDownData DropDown;
         [SerializeField] private GameObject _panel;
         [SerializeField] private Text _textUIPanelRussian;
         [SerializeField] private Text _textUIPanelEnglish;
+        [SerializeField] private Text _textBackPanelRussian;
+        [SerializeField] private Text _textBackPanelEnglish;
         [SerializeField] private Button _buttonUIPanel;
         private string _targetKey;
         private Dictionary<string, string> _descriptions;
@@ -31,7 +34,7 @@ namespace Dictionary
 
         private void Start()
         {
-            DropDownData.dropdown.value = PlayerPrefs.GetInt("DropDownValue", 0);
+            DropDown.dropdown.value = PlayerPrefs.GetInt("DropDownValue", 0);
             _panel.SetActive(true);
         }
         
@@ -42,7 +45,7 @@ namespace Dictionary
 
         private void LanguageDescription()
         {
-            if (DropDownData.dropdown.value == 0)
+            if (DropDown.dropdown.value == 0)
             {
                 _descriptions = new Dictionary<string, string>();
                 _descriptions.Add("Иван", _textUwanRussian);
@@ -50,7 +53,9 @@ namespace Dictionary
                 _descriptions.Add("Лес", _textForestRussian);
                 _descriptions.Add("Олень", _textDeerRussian);
                 _textUIPanelRussian.enabled = true;
+                _textBackPanelRussian.enabled = true;
                 _textUIPanelEnglish.enabled = false;
+                _textBackPanelEnglish.enabled = false;
             }
             else
             {
@@ -61,6 +66,8 @@ namespace Dictionary
                 _descriptions.Add("Deer", _textDeerEnglish);
                 _textUIPanelEnglish.enabled = true;
                 _textUIPanelRussian.enabled = false;
+                _textBackPanelEnglish.enabled = true;
+                _textBackPanelRussian.enabled = false;
             }
         }
         public void ReadInput(string query)
@@ -85,7 +92,7 @@ namespace Dictionary
             _panel.SetActive(false);
         }
         
-        public new void OnValueChanged(Dropdown dropdown)
+        public void OnValueChanged(Dropdown dropdown)
         {
             int value = dropdown.value;
             
