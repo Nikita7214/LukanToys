@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using TMPro;
 using UI;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Dictionary
@@ -30,11 +31,16 @@ namespace Dictionary
 
         private void Start()
         {
-            DropDownData.dropdown.value = PlayerPrefs.GetInt("DropDownValue", 1);
+            DropDownData.dropdown.value = PlayerPrefs.GetInt("DropDownValue", 0);
             _panel.SetActive(true);
         }
         
-        public void LanguageDescription()
+        private void Update()
+        {
+            LanguageDescription();
+        }
+
+        private void LanguageDescription()
         {
             if (DropDownData.dropdown.value == 0)
             {
@@ -57,7 +63,6 @@ namespace Dictionary
                 _textUIPanelRussian.enabled = false;
             }
         }
-
         public void ReadInput(string query)
         {
             _targetKey = query;
@@ -76,9 +81,15 @@ namespace Dictionary
         public void ClickButtonPanel()
         {
             if (!_buttonUIPanel) return;
-            {
-                _panel.SetActive(false);
-            }
+            
+            _panel.SetActive(false);
+        }
+        
+        public new void OnValueChanged(Dropdown dropdown)
+        {
+            int value = dropdown.value;
+            
+            PlayerPrefs.SetInt("DropDownValue", value);
         }
     }
 }

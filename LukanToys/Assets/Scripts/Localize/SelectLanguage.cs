@@ -45,7 +45,7 @@ namespace UI
 }
 
 [Serializable]
-public class DropDownData
+public class DropDownData 
 {
     public Dropdown dropdown;
 }

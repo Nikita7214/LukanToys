@@ -11,6 +11,7 @@ namespace Character
 {
     public class ShowTextOnTargetReach : MonoBehaviour
     {
+        public DropDownData Dropdown;
         public float detectionRadius = 3f; 
         [SerializeField] private GameObject[] _targets;
         [SerializeField] private string[] _targetTexts; 
@@ -19,14 +20,7 @@ namespace Character
         private void Start()
         {
             _uiText = (Text)GameObject.FindGameObjectWithTag("TextUI").GetComponent(typeof(Text));
-            DropDownData dropDownData = new DropDownData();
-
-            if (dropDownData.dropdown.value == 1)
-            {
-                _targetTexts[0] = "Tanya";
-                _targetTexts[1] = "Forest";
-                _targetTexts[2] = "Deer";
-            }
+            Dropdown.dropdown.value = PlayerPrefs.GetInt("DropDownValue", 0);
         }
 
         private void Update()
@@ -55,6 +49,20 @@ namespace Character
             {
                 _uiText.text = "";
             }
+            
+            if (Dropdown.dropdown.value == 1)
+            {
+                _targetTexts[0] = "The forest is what I love the most!";
+                _targetTexts[1] = "Deer are such beautiful animals!";
+                _targetTexts[2] = "Tanya is a friend with whom we love to walk in the woods!";
+            }
+        }
+        
+        public void OnValueChanged(Dropdown dropdown)
+        {
+            int value = dropdown.value;
+            
+            PlayerPrefs.SetInt("DropDownValue", value);
         }
     }
 }

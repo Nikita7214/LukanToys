@@ -1,20 +1,19 @@
-using System;
-using System.Collections.Generic;
-using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.XR.ARFoundation;
 
-public class GameSettings : MonoBehaviour
+namespace UI
 {
-   [SerializeField] private Button _settingsButton;
-   private string _targetKey;
-
-   public void OnSettingsButton()
+   public class GameSettings : MonoBehaviour
    {
-      if (!_settingsButton) return;
+      [SerializeField] private Button _settingsButton;
+      private string _targetKey;
+
+      public void OnSettingsButton()
+      {
+         if (!_settingsButton) return;
       
-      SceneManager.LoadSceneAsync(2);
+         SceneManager.LoadSceneAsync(2);
+      }
    }
 }
