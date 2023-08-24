@@ -10,7 +10,9 @@ namespace UI
 {
     public class SettingsButtonState : MonoBehaviour
     {
+        [SerializeField] private GameSettings _settings;
         [SerializeField] private Button _supportButton;
+        [SerializeField] private Button _backButton;
         [SerializeField] private Button _vkButton;
         [SerializeField] private Button _dictionaryButton;
 
@@ -32,7 +34,16 @@ namespace UI
         {
             if (!_dictionaryButton) return;
 
-            SceneManager.LoadSceneAsync(3);
+            SceneManager.LoadSceneAsync(2);
+        }
+        
+        public void GoBack()
+        {
+            if (!_backButton) return;
+
+            _settings.panelSettings.SetActive(false);
+            _settings.panelUI.SetActive(true);
+            _settings.settingsButton.gameObject.SetActive(true);
         }
     }
 }

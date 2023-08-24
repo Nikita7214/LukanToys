@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/ExampleAssets/Scenes/BlankAR 1.unity
     guid: 95ca0517cd49c47f48797e3226506819
   - enabled: 1
-    path: Assets/ExampleAssets/Scenes/SettingsMenu.unity
-    guid: d0a7c59c55e87445f8d9a3ca7ac0c995
-  - enabled: 1
     path: Assets/ExampleAssets/Scenes/Dictionary.unity
     guid: c36e0581d713cb44aaa63dfc0fbd66a9
   m_configObjects:

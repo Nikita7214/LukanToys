@@ -13,6 +13,14 @@ namespace Dictionary
     {
         [SerializeField] private TextMeshProUGUI descriptionText;
         [SerializeField] private DropDownData DropDown;
+        [SerializeField] private AudioSource _audioDeerRussian;
+        [SerializeField] private AudioSource _audioTanyaRussian;
+        [SerializeField] private AudioSource _audioUwanRussian;
+        [SerializeField] private AudioSource _audioForestRussian;
+        [SerializeField] private AudioSource _audioDeerEnglish;
+        [SerializeField] private AudioSource _audioTanyaEnglish;
+        [SerializeField] private AudioSource _audioUwanEnglish;
+        [SerializeField] private AudioSource _audioForestEnglish;
         [SerializeField] private GameObject _panel;
         [SerializeField] private Text _textUIPanelRussian;
         [SerializeField] private Text _textUIPanelEnglish;
@@ -21,6 +29,7 @@ namespace Dictionary
         [SerializeField] private Button _buttonUIPanel;
         private string _targetKey;
         private Dictionary<string, string> _descriptions;
+        private Dictionary<string, AudioSource> _descriptionAudioSources;
 
         private string _textDeerRussian = "Олень это дикое животное, которое обитает в нашем уютном лесу";
         private string _textDeerEnglish = "Deer is a wild animal that lives in our cozy forest";
@@ -70,6 +79,27 @@ namespace Dictionary
                 _textBackPanelRussian.enabled = false;
             }
         }
+
+        public void AudioDescription()
+        {
+            if (DropDown.dropdown.value == 0)
+            {
+                _descriptionAudioSources = new Dictionary<string, AudioSource>();
+                _descriptionAudioSources.Add("Иван", _audioUwanRussian);
+                _descriptionAudioSources.Add("Таня", _audioTanyaRussian);
+                _descriptionAudioSources.Add("Лес", _audioForestRussian);
+                _descriptionAudioSources.Add("Олень", _audioDeerRussian);
+            }
+            else
+            {
+                _descriptionAudioSources = new Dictionary<string, AudioSource>();
+                _descriptionAudioSources.Add("Иван", _audioUwanEnglish);
+                _descriptionAudioSources.Add("Таня", _audioTanyaEnglish);
+                _descriptionAudioSources.Add("Лес", _audioForestEnglish);
+                _descriptionAudioSources.Add("Олень", _audioDeerEnglish);
+            }
+        }
+        
         public void ReadInput(string query)
         {
             _targetKey = query;
