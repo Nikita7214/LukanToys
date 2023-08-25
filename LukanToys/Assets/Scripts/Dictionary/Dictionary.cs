@@ -11,6 +11,8 @@ namespace Dictionary
 {
     public class Dictionary : MonoBehaviour
     {
+        [SerializeField] private SettingsButtonState _settingsButtonState;
+        [SerializeField] private GameSettings _settingsPanel;
         [SerializeField] private TextMeshProUGUI descriptionText;
         [SerializeField] private DropDownData DropDown;
         [SerializeField] private AudioSource _audioDeerRussian;
@@ -26,6 +28,7 @@ namespace Dictionary
         [SerializeField] private Text _textUIPanelEnglish;
         [SerializeField] private Text _textBackPanelRussian;
         [SerializeField] private Text _textBackPanelEnglish;
+        [SerializeField] private Button _backSettingsButton;
         [SerializeField] private Button _buttonUIPanel;
         private string _targetKey;
         private Dictionary<string, string> _descriptions;
@@ -43,10 +46,11 @@ namespace Dictionary
 
         private void Start()
         {
+            _settingsButtonState.panelDictionary.SetActive(false);
             DropDown.dropdown.value = PlayerPrefs.GetInt("DropDownValue", 0);
             _panel.SetActive(true);
         }
-        
+
         private void Update()
         {
             LanguageDescription();
@@ -120,6 +124,14 @@ namespace Dictionary
             if (!_buttonUIPanel) return;
             
             _panel.SetActive(false);
+        }
+
+        public void BackSettingsButton()
+        {
+            if (!_backSettingsButton) return;
+            
+            _settingsPanel.panelSettings.SetActive(true);
+            _settingsButtonState.panelDictionary.SetActive(false);
         }
         
         public void OnValueChanged(Dropdown dropdown)
