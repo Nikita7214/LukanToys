@@ -1,3 +1,10 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using TMPro;
+using Unity.Mathematics;
+using UnityEditor.Timeline;
 using UnityEngine;
 using UnityEngine.UI;
 using Vector3 = UnityEngine.Vector3;
@@ -17,7 +24,7 @@ namespace Character
             _uiText = (Text)GameObject.FindGameObjectWithTag("TextUI").GetComponent(typeof(Text));
             Dropdown.dropdown.value = PlayerPrefs.GetInt("DropDownValue", 0);
         }
-
+        
         private void Update()
         {
             int currentTargetIndex = -1;
@@ -61,3 +68,4 @@ namespace Character
         }
     }
 }
+

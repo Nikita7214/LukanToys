@@ -1,13 +1,14 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="ButtonSettings" preserve="nothing"/>
-		<type fullname="ButtonState" preserve="nothing"/>
-		<type fullname="Dictionary" preserve="nothing"/>
+		<type fullname="Character.ShowTextOnTargetReach" preserve="nothing"/>
+		<type fullname="Dictionary.Dictionary" preserve="nothing"/>
 		<type fullname="NavMeshGenerator" preserve="nothing"/>
 		<type fullname="Script.CharacterBehavior" preserve="nothing"/>
 		<type fullname="Script.CharacterEventHandler" preserve="nothing"/>
 		<type fullname="Script.InteractiveObject" preserve="nothing"/>
 		<type fullname="Script.PlayerController" preserve="nothing"/>
+		<type fullname="UI.ButtonState" preserve="nothing"/>
+		<type fullname="UI.GameSettings" preserve="nothing"/>
 		<type fullname="UI.SelectLanguage" preserve="nothing"/>
 		<type fullname="UI.SettingsButtonState" preserve="nothing"/>
 	</assembly>
@@ -26,7 +27,6 @@
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>
-		<type fullname="TMPro.TMP_Dropdown" preserve="nothing"/>
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_InputField" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
@@ -133,6 +133,9 @@
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.EventSystems.PhysicsRaycaster" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>

@@ -1368,7 +1368,7 @@
             "outputFile": "com.UnityTechnologies.ARFoundationSamples.launcher-merged_res-6:/values-v30_values-v30.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values-v30/values-v30.xml",
+                    "source": "/Users/nikita/Documents/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values-v30/values-v30.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -1515,7 +1515,7 @@
             "outputFile": "com.UnityTechnologies.ARFoundationSamples.launcher-merged_res-6:/values-v28_values-v28.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values-v28/values-v28.xml",
+                    "source": "/Users/nikita/Documents/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1773,7 +1773,7 @@
             "outputFile": "com.UnityTechnologies.ARFoundationSamples.launcher-merged_res-6:/values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values-v21/values-v21.xml",
+                    "source": "/Users/nikita/Documents/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -2251,24 +2251,24 @@
             "outputFile": "com.UnityTechnologies.ARFoundationSamples.launcher-merged_res-6:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/nikita/.gradle/caches/transforms-3/d5892727fe2bd1f3d6dcebf3129196ed/transformed/arcore_client/res/values/values.xml",
+                    "source": "/Users/nikita/Documents/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "161,208,259,381,503",
-                        "endColumns": "46,50,121,121,83",
-                        "endOffsets": "207,258,380,502,586"
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "53,98",
+                        "endColumns": "44,65",
+                        "endOffsets": "95,161"
                     },
                     "to": {
-                        "startLines": "8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "356,407,462,588,714",
-                        "endColumns": "50,54,125,125,87",
-                        "endOffsets": "402,457,583,709,797"
+                        "startLines": "13,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "802,849",
+                        "endColumns": "46,67",
+                        "endOffsets": "844,912"
                     }
                 },
                 {
-                    "source": "/Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values/values.xml",
+                    "source": "/Users/nikita/Documents/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -2287,20 +2287,20 @@
                     }
                 },
                 {
-                    "source": "/Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
+                    "source": "/Users/nikita/.gradle/caches/transforms-3/d5892727fe2bd1f3d6dcebf3129196ed/transformed/arcore_client/res/values/values.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "53,98",
-                        "endColumns": "44,65",
-                        "endOffsets": "95,161"
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "161,208,259,381,503",
+                        "endColumns": "46,50,121,121,83",
+                        "endOffsets": "207,258,380,502,586"
                     },
                     "to": {
-                        "startLines": "13,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "802,849",
-                        "endColumns": "46,67",
-                        "endOffsets": "844,912"
+                        "startLines": "8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "356,407,462,588,714",
+                        "endColumns": "50,54,125,125,87",
+                        "endOffsets": "402,457,583,709,797"
                     }
                 }
             ]

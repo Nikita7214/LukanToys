@@ -1,10 +1,5 @@
-using System;
-using System.Diagnostics;
-using Unity.XR.CoreUtils;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEngine.XR.Management;
 
 namespace UI
 {
@@ -47,6 +42,6 @@ namespace UI
             _settings.panelUI.SetActive(true);
             _settings.settingsButton.gameObject.SetActive(true);
         }
-        
     }
 }
+

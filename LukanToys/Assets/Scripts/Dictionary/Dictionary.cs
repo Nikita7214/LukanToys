@@ -97,10 +97,10 @@ namespace Dictionary
             else
             {
                 _descriptionAudioSources = new Dictionary<string, AudioSource>();
-                _descriptionAudioSources.Add("Иван", _audioUwanEnglish);
-                _descriptionAudioSources.Add("Таня", _audioTanyaEnglish);
-                _descriptionAudioSources.Add("Лес", _audioForestEnglish);
-                _descriptionAudioSources.Add("Олень", _audioDeerEnglish);
+                _descriptionAudioSources.Add("Ivan", _audioUwanEnglish);
+                _descriptionAudioSources.Add("Tanya", _audioTanyaEnglish);
+                _descriptionAudioSources.Add("Forest", _audioForestEnglish);
+                _descriptionAudioSources.Add("Deer", _audioDeerEnglish);
             }
         }
         

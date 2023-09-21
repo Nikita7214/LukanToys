@@ -4,7 +4,7 @@
             "outputFile": "com.UnityTechnologies.ARFoundationSamples.launcher-mergeDebugResources-4:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "/Users/nikita/Documents/LukanToys1/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values-v30/values-v30.xml",
+                    "source": "/Users/nikita/Documents/LukanToys/LukanToys/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/packaged_res/debug/values-v30/values-v30.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

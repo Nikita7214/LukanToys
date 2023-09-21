@@ -234,8 +234,6 @@ UnityEngine.Application::get_platform
 UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.AudioSettings::StartAudioOutput
 UnityEngine.AudioSettings::StopAudioOutput
-UnityEngine.AudioSource::PlayHelper_Injected
-UnityEngine.AudioSource::Stop_Injected
 UnityEngine.Awaitable::IsNativeAwaitableCompleted
 UnityEngine.Awaitable::ReleaseNativeAwaitable
 UnityEngine.Behaviour::get_enabled_Injected
@@ -423,6 +421,7 @@ UnityEngine.GameObject::GetComponent_Injected
 UnityEngine.GameObject::Internal_AddComponentWithType_Injected
 UnityEngine.GameObject::TryGetComponentInternal_Injected
 UnityEngine.GameObject::Find
+UnityEngine.GameObject::FindGameObjectWithTag
 UnityEngine.GameObject::FindGameObjectsWithTag
 UnityEngine.GameObject::get_transform_Injected
 UnityEngine.Gizmos::DrawCube_Injected

@@ -7,7 +7,8 @@
           {
             "name": "NavMeshAgent",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -34,9 +35,7 @@
             "name": "NavMeshSettings",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -53,7 +52,8 @@
           {
             "name": "AnimationClip",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -61,7 +61,8 @@
           {
             "name": "Animator",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -69,7 +70,8 @@
           {
             "name": "AnimatorController",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -101,9 +103,7 @@
             "name": "AudioBehaviour",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -118,9 +118,7 @@
             "name": "AudioListener",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -129,12 +127,6 @@
             "name": "AudioManager",
             "scenes": [],
             "dependencyType": 1,
-            "icon": null
-          },
-          {
-            "name": "AudioSource",
-            "scenes": [],
-            "dependencyType": 0,
             "icon": null
           },
           {
@@ -164,9 +156,7 @@
             "name": "Camera",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -187,9 +177,7 @@
             "name": "Cubemap",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -210,9 +198,7 @@
             "name": "EditorExtension",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -227,9 +213,7 @@
             "name": "GameObject",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -256,9 +240,7 @@
             "name": "LevelGameManager",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -267,9 +249,7 @@
             "name": "Light",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -290,9 +270,7 @@
             "name": "LightmapSettings",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -313,9 +291,7 @@
             "name": "Material",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -323,7 +299,8 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -331,7 +308,8 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -339,7 +317,8 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -348,9 +327,7 @@
             "name": "MonoBehaviour",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -365,9 +342,7 @@
             "name": "MonoScript",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -376,9 +351,7 @@
             "name": "NamedObject",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -411,9 +384,7 @@
             "name": "RectTransform",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -428,9 +399,7 @@
             "name": "RenderSettings",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -463,9 +432,7 @@
             "name": "Shader",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -479,7 +446,8 @@
           {
             "name": "SkinnedMeshRenderer",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -494,9 +462,7 @@
             "name": "Sprite",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -840,7 +806,8 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1168,9 +1135,8 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1214,9 +1180,7 @@
             "name": "Canvas",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1231,9 +1195,7 @@
             "name": "CanvasRenderer",
             "scenes": [
               "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-              "Assets/ExampleAssets/Scenes/Dictionary.unity",
-              "Assets/ExampleAssets/Scenes/Menu.unity",
-              "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+              "Assets/ExampleAssets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null

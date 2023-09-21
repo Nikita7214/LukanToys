@@ -11,14 +11,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "ButtonSettings",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "ButtonState",
+            "fullManagedTypeName": "Character.ShowTextOnTargetReach",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -32,7 +25,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Dictionary",
+            "fullManagedTypeName": "Dictionary.Dictionary",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -43,9 +36,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -55,9 +46,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -74,9 +63,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -86,9 +73,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -112,9 +97,7 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -183,13 +166,6 @@
         {
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TMP_Dropdown",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "TMPro.TMP_FontAsset",
             "moduleName": "",
             "usedInScenes": []
@@ -225,6 +201,20 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UI.ButtonState",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UI.GameSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UI.SelectLanguage",
             "moduleName": "",
             "usedInScenes": []
@@ -249,7 +239,8 @@
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -280,9 +271,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -333,7 +322,8 @@
             "fullManagedTypeName": "UnityEngine.AI.NavMeshAgent",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -356,7 +346,8 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -365,7 +356,8 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -375,9 +367,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -387,9 +377,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -399,9 +387,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -410,7 +396,8 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -420,9 +407,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -432,9 +417,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -444,9 +427,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -455,7 +436,8 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -465,9 +447,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -477,15 +457,20 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.PhysicsRaycaster",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -509,9 +494,8 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -521,9 +505,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -582,9 +564,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -594,9 +574,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -606,9 +584,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -617,7 +593,8 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -626,7 +603,8 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -635,7 +613,8 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -645,9 +624,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -656,7 +633,8 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -666,9 +644,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -685,9 +661,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -696,7 +670,8 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -713,9 +688,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -724,7 +697,8 @@
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -734,9 +708,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -745,7 +717,8 @@
             "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/ExampleAssets/Scenes/BlankAR 1.unity"
+                "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -755,9 +728,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -767,9 +738,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -779,9 +748,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -791,9 +758,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
@@ -803,9 +768,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/ExampleAssets/Scenes/BlankAR 1.unity",
-                "Assets/ExampleAssets/Scenes/Dictionary.unity",
-                "Assets/ExampleAssets/Scenes/Menu.unity",
-                "Assets/ExampleAssets/Scenes/SettingsMenu.unity"
+                "Assets/ExampleAssets/Scenes/Menu.unity"
             ]
         },
         {
