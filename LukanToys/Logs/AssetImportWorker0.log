@@ -1221,3 +1221,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 446.789707 seconds.
+  path: Assets/Sprites/Luk/Location/Area.prefab
+  artifactKey: Guid(e8fba4c5803cc4fbcaa423bdcfa990d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Luk/Location/Area.prefab using Guid(e8fba4c5803cc4fbcaa423bdcfa990d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a81000b9b2c452b39541ced8af1ee8') in 1.135892 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1671
