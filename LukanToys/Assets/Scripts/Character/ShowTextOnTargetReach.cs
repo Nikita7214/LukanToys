@@ -1,10 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using TMPro;
-using Unity.Mathematics;
-using UnityEditor.Timeline;
 using UnityEngine;
 using UnityEngine.UI;
 using Vector3 = UnityEngine.Vector3;
