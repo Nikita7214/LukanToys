@@ -1945,6 +1945,11 @@ PrefabInstance:
       objectReference: {fileID: 1038752120}
     - target: {fileID: 1257004295112180022, guid: bf74c2ea9c50349f5948eb706dd1cd98,
         type: 3}
+      propertyPath: _textPanel
+      value: 
+      objectReference: {fileID: 1625365957}
+    - target: {fileID: 1257004295112180022, guid: bf74c2ea9c50349f5948eb706dd1cd98,
+        type: 3}
       propertyPath: _buttonUIPanel
       value: 
       objectReference: {fileID: 1038752114}
@@ -2085,6 +2090,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1625365955}
+    - targetCorrespondingSourceObject: {fileID: 3255127328871811968, guid: bf74c2ea9c50349f5948eb706dd1cd98,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1625365957}
   m_SourcePrefab: {fileID: 100100000, guid: bf74c2ea9c50349f5948eb706dd1cd98, type: 3}
 --- !u!114 &1625365952 stripped
 MonoBehaviour:
@@ -2174,6 +2183,22 @@ MonoBehaviour:
     \u0432\u0441\u0435 \u0441\u0432\u043E\u0438 \u0433\u043E\u0434\u044B"
   ivanEnglish: Ivan is a boy who loves to go to the forest, enjoy nature
   tanyaEnglish: Ivan's girlfriend, with whom he spent all his years
+--- !u!114 &1625365957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625365953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69d658a3a2ef472fb4cda12331ecd53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiPanelRussian: {fileID: 1038752119}
+  uiPanelEnglish: {fileID: 1038752118}
+  backPanelRussian: {fileID: 1038752117}
+  backPanelEnglish: {fileID: 1038752116}
 --- !u!1 &1981813247
 GameObject:
   m_ObjectHideFlags: 0

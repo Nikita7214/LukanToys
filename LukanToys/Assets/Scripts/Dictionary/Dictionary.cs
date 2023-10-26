@@ -1,11 +1,8 @@
-using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using Dictionary.InterfacesDictionary;
 using TMPro;
 using UI;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Dictionary
@@ -15,17 +12,15 @@ namespace Dictionary
         [SerializeField] private SettingsButtonState _settingsButtonState;
         [SerializeField] private AudioSourceDictionary _audioSourceDictionary;
         [SerializeField] private TextDictionary _textDictionary;
+        [SerializeField] private TextPanel _textPanel;
         [SerializeField] private GameSettings _settingsPanel;
-        
+
         [SerializeField] private TextMeshProUGUI descriptionText;
         [SerializeField] private DropDownData DropDown;
         [SerializeField] private GameObject _panel;
-        [SerializeField] private Text _textUIPanelRussian;
-        [SerializeField] private Text _textUIPanelEnglish;
-        [SerializeField] private Text _textBackPanelRussian;
-        [SerializeField] private Text _textBackPanelEnglish;
         [SerializeField] private Button _backSettingsButton;
         [SerializeField] private Button _buttonUIPanel;
+        
         private string _targetKey;
         private Dictionary<string, string> _descriptions;
         private Dictionary<string, AudioSource> _descriptionAudioSources;
@@ -51,10 +46,10 @@ namespace Dictionary
                 _descriptions.Add("Таня", _textDictionary.tanyaRussian);
                 _descriptions.Add("Лес", _textDictionary.forestRussian);
                 _descriptions.Add("Олень", _textDictionary.deerRussian);
-                _textUIPanelRussian.enabled = true;
-                _textBackPanelRussian.enabled = true;
-                _textUIPanelEnglish.enabled = false;
-                _textBackPanelEnglish.enabled = false;
+                _textPanel.uiPanelRussian.enabled = true;
+                _textPanel.backPanelRussian.enabled = true;
+                _textPanel.uiPanelEnglish.enabled = false;
+                _textPanel.backPanelEnglish.enabled = false;
             }
             else
             {
@@ -63,10 +58,10 @@ namespace Dictionary
                 _descriptions.Add("Tanya", _textDictionary.tanyaEnglish);
                 _descriptions.Add("Forest", _textDictionary.forestEnglish);
                 _descriptions.Add("Deer", _textDictionary.deerEnglish);
-                _textUIPanelEnglish.enabled = true;
-                _textUIPanelRussian.enabled = false;
-                _textBackPanelEnglish.enabled = true;
-                _textBackPanelRussian.enabled = false;
+                _textPanel.uiPanelEnglish.enabled = true;
+                _textPanel.uiPanelRussian.enabled = false;
+                _textPanel.backPanelEnglish.enabled = true;
+                _textPanel.backPanelRussian.enabled = false;
             }
         }
 
