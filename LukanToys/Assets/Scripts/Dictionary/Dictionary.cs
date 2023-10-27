@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 namespace Dictionary
 {
-    public class Dictionary : MonoBehaviour, ILanguageDescription, IAudioDescription
+    public class Dictionary : MonoBehaviour, IDescription
     {
         [SerializeField] private SettingsButtonState _settingsButtonState;
         [SerializeField] private AudioSourceDictionary _audioSourceDictionary;

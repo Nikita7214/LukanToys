@@ -1,7 +1,8 @@
 namespace Dictionary.InterfacesDictionary
 {
-    public interface IAudioDescription
+    public interface IDescription 
     {
+        void LanguageDescription();
         void AudioDescription();
     }
 }
