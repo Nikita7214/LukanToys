@@ -34,10 +34,10 @@ namespace Dictionary
 
         private void Update()
         {
-            LanguageDescription();
+            LanguageAndAudioDescription();
         }
         
-        public void LanguageDescription()
+        public void LanguageAndAudioDescription()
         {
             if (DropDown.dropdown.value == 0)
             {
@@ -46,6 +46,13 @@ namespace Dictionary
                 _descriptions.Add("Таня", _textDictionary.tanyaRussian);
                 _descriptions.Add("Лес", _textDictionary.forestRussian);
                 _descriptions.Add("Олень", _textDictionary.deerRussian);
+
+                _descriptionAudioSources = new Dictionary<string, AudioSource>();
+                _descriptionAudioSources.Add("Иван", _audioSourceDictionary.ivanRussian);
+                _descriptionAudioSources.Add("Таня", _audioSourceDictionary.tanyaRussian);
+                _descriptionAudioSources.Add("Лес", _audioSourceDictionary.forestRussian);
+                _descriptionAudioSources.Add("Олень", _audioSourceDictionary.deerRussian);
+
                 _textPanel.uiPanelRussian.enabled = true;
                 _textPanel.backPanelRussian.enabled = true;
                 _textPanel.uiPanelEnglish.enabled = false;
@@ -58,6 +65,13 @@ namespace Dictionary
                 _descriptions.Add("Tanya", _textDictionary.tanyaEnglish);
                 _descriptions.Add("Forest", _textDictionary.forestEnglish);
                 _descriptions.Add("Deer", _textDictionary.deerEnglish);
+
+                _descriptionAudioSources = new Dictionary<string, AudioSource>();
+                _descriptionAudioSources.Add("Ivan", _audioSourceDictionary.ivanEnglish);
+                _descriptionAudioSources.Add("Tanya", _audioSourceDictionary.tanyaEnglish);
+                _descriptionAudioSources.Add("Forest", _audioSourceDictionary.forestEnglish);
+                _descriptionAudioSources.Add("Deer", _audioSourceDictionary.deerEnglish);
+
                 _textPanel.uiPanelEnglish.enabled = true;
                 _textPanel.uiPanelRussian.enabled = false;
                 _textPanel.backPanelEnglish.enabled = true;
@@ -65,25 +79,6 @@ namespace Dictionary
             }
         }
 
-        public void AudioDescription()
-        {
-            if (DropDown.dropdown.value == 0)
-            {
-                _descriptionAudioSources = new Dictionary<string, AudioSource>();
-                _descriptionAudioSources.Add("Иван", _audioSourceDictionary.ivanRussian);
-                _descriptionAudioSources.Add("Таня", _audioSourceDictionary.tanyaRussian);
-                _descriptionAudioSources.Add("Лес", _audioSourceDictionary.forestRussian);
-                _descriptionAudioSources.Add("Олень", _audioSourceDictionary.deerRussian);
-            }
-            else
-            {
-                _descriptionAudioSources = new Dictionary<string, AudioSource>();
-                _descriptionAudioSources.Add("Ivan", _audioSourceDictionary.ivanEnglish);
-                _descriptionAudioSources.Add("Tanya", _audioSourceDictionary.tanyaEnglish);
-                _descriptionAudioSources.Add("Forest", _audioSourceDictionary.forestEnglish);
-                _descriptionAudioSources.Add("Deer", _audioSourceDictionary.deerEnglish);
-            }
-        }
         
         public void ReadInput(string query)
         {
