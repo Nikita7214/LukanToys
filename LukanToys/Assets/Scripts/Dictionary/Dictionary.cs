@@ -23,7 +23,7 @@ namespace Dictionary
         
         private string _targetKey;
         private Dictionary<string, string> _descriptions;
-        private Dictionary<string, AudioSource> _descriptionAudioSources;
+        private Dictionary<string, AudioSource> _descriptionsAudioSource;
 
         private void Start()
         {
@@ -47,11 +47,11 @@ namespace Dictionary
                 _descriptions.Add("Лес", _textDictionary.forestRussian);
                 _descriptions.Add("Олень", _textDictionary.deerRussian);
 
-                _descriptionAudioSources = new Dictionary<string, AudioSource>();
-                _descriptionAudioSources.Add("Иван", _audioSourceDictionary.ivanRussian);
-                _descriptionAudioSources.Add("Таня", _audioSourceDictionary.tanyaRussian);
-                _descriptionAudioSources.Add("Лес", _audioSourceDictionary.forestRussian);
-                _descriptionAudioSources.Add("Олень", _audioSourceDictionary.deerRussian);
+                _descriptionsAudioSource = new Dictionary<string, AudioSource>();
+                _descriptionsAudioSource.Add("Иван", _audioSourceDictionary.ivanRussian);
+                _descriptionsAudioSource.Add("Таня", _audioSourceDictionary.tanyaRussian);
+                _descriptionsAudioSource.Add("Лес", _audioSourceDictionary.forestRussian);
+                _descriptionsAudioSource.Add("Олень", _audioSourceDictionary.deerRussian);
 
                 _textPanel.uiPanelRussian.enabled = true;
                 _textPanel.backPanelRussian.enabled = true;
@@ -66,11 +66,11 @@ namespace Dictionary
                 _descriptions.Add("Forest", _textDictionary.forestEnglish);
                 _descriptions.Add("Deer", _textDictionary.deerEnglish);
 
-                _descriptionAudioSources = new Dictionary<string, AudioSource>();
-                _descriptionAudioSources.Add("Ivan", _audioSourceDictionary.ivanEnglish);
-                _descriptionAudioSources.Add("Tanya", _audioSourceDictionary.tanyaEnglish);
-                _descriptionAudioSources.Add("Forest", _audioSourceDictionary.forestEnglish);
-                _descriptionAudioSources.Add("Deer", _audioSourceDictionary.deerEnglish);
+                _descriptionsAudioSource = new Dictionary<string, AudioSource>();
+                _descriptionsAudioSource.Add("Ivan", _audioSourceDictionary.ivanEnglish);
+                _descriptionsAudioSource.Add("Tanya", _audioSourceDictionary.tanyaEnglish);
+                _descriptionsAudioSource.Add("Forest", _audioSourceDictionary.forestEnglish);
+                _descriptionsAudioSource.Add("Deer", _audioSourceDictionary.deerEnglish);
 
                 _textPanel.uiPanelEnglish.enabled = true;
                 _textPanel.uiPanelRussian.enabled = false;
